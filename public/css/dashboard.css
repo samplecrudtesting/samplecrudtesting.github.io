@@ -1,0 +1,115 @@
+/* Add some basic styling to body and container */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #5c9ee0;
+}
+
+.top {
+  background-color: rgb(7, 4, 54);
+  color: white; 
+  padding: 10px;
+  
+}
+
+.form {
+  background-color:rgb(7, 4, 54);
+  color: white;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* Style for the header */
+.header {
+  text-align: center;
+  color: #f8f5f5;
+  
+ 
+}
+
+/* Style for the logout link */
+.logout {
+  text-align: right;
+  margin-bottom: 10px;
+  
+  .logout-button {
+    display: inline-table;
+    padding: 10px 20px;
+    background-color: #17217e;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #4456f8; 
+}
+
+ 
+ 
+}
+
+/* Style for the table */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  color: #070707;
+  
+  
+
+}
+
+
+
+
+
+/* Style for the "Add Product" button */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  
+}
+
+/* Style for the modal */
+.modal-content {
+  background-color: rgb(7, 4, 54);
+  color:white;
+}
+
+/* Style for form labels and inputs inside the modal */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+}
+
+/* Style for modal footer buttons */
+.modal-footer {
+  justify-content: flex-end;
+}
+
+/* Style for the delete confirmation message */
+.delProductName {
+  color: #dc3545;
+}
+
+/* Style for the update and delete buttons in the table */
+.btnUpdateProduct, .btndeleteProduct {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 576px) {
+  .container {
+    margin-top: 10px;
+  }
+}
